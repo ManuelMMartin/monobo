@@ -1,0 +1,22 @@
+body {
+  font-family: $fpr;
+  font-size: 20px;
+  line-height: 33px;
+  color: $color-base1;
+}
+
+.square {
+  background-color: $color-base1;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+
+  &--l {
+    margin-right: 16px;
+  }
+
+  &--t {
+    margin-bottom: 24px;
+    display: block;
+  }
+}

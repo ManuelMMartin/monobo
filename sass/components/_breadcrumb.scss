@@ -1,0 +1,39 @@
+.breadcrumb {
+   margin-bottom: 65px;
+
+   &__list {
+      display: flex;
+   }
+
+   &__item {
+      opacity: .4;
+      margin-right: 34px;
+      position: relative;
+
+      &:last-child {
+         opacity: 1;
+         margin-right: 0;
+      }
+
+      &:after {
+         content: "";
+         display: inline-block;
+         width: 6px;
+         height: 6px;
+         background-image: url('images/flecha.svg');
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: center center;
+         position: absolute;
+         right: -(34px / 2);
+         top: 50%;
+         transform: translate(0, -50%);
+      }
+
+   }
+
+   &__link {
+      font-size: 14px;
+      line-height: 32px;
+   }
+}

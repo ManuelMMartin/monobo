@@ -1,0 +1,13 @@
+.breadcrumb__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.breadcrumb__item {
+  opacity: 0.4;
+  margin-right: 34px;
+}
+.breadcrumb__item:last-child {
+  opacity: 1;
+  margin-right: 0;
+}

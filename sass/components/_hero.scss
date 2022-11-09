@@ -1,0 +1,70 @@
+.hero {
+   margin-bottom: 97px;
+
+   &__logo {
+      height: 12px;
+      width: auto;
+
+      &-c {
+         border-bottom: 1px solid $color-base3;
+         padding-bottom: 22px;
+         margin-bottom: 16px;
+      }
+   }
+
+   &__p {
+      font-size: 12px;
+      line-height: 24px;
+      text-transform: uppercase;
+   }
+
+   &__wrapper {
+      &--2 {
+         grid-column: 4 / 13;
+      }
+
+      &--3 {
+         position: relative;
+      }
+   }
+
+   &__link {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: flex;
+
+      &-s {
+         width: 216px;
+         height: 216px;
+         display: inline-block;
+         padding: 24px;
+
+         &--1 {
+            background-color: $color-base1;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 26px;
+         }
+
+         &--2 {
+            background-color: $color-primary1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+         }
+      }
+   }
+
+   &__pretitle {
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 32px;
+      margin-bottom: 24px;
+   }
+
+   .grid {
+      row-gap: 39px;
+   }
+}
